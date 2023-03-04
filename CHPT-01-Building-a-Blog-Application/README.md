@@ -1,6 +1,7 @@
 # Django 4 By Example | Building a Blog Application
 
 * Creating the blog data models
+* Creating an administration site for models
 
 Links and Appendix
 ========================================================
