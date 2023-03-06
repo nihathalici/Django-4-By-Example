@@ -3,6 +3,7 @@
 * Creating the blog data models
 * Creating an administration site for models
 * Working with QuerySets and managers
+* Building list and detail views 
 
 Links and Appendix
 ========================================================
