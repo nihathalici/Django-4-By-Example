@@ -1,6 +1,7 @@
 # Django 4 By Example | Enhancing Your Blog with Advanced Features
 
-* Using canonical URLs for models 
+* Using canonical URLs for models
+* Creating SEO-friendly URLs for posts
 
 
 Links and Appendix
