@@ -2,6 +2,7 @@
 
 * Using canonical URLs for models
 * Creating SEO-friendly URLs for posts
+* Adding pagination
 
 
 Links and Appendix
