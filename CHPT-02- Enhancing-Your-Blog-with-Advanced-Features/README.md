@@ -4,6 +4,7 @@
 * Creating SEO-friendly URLs for posts
 * Adding pagination
 * Building class-based views
+* Recommending posts by email
 
 
 Links and Appendix
