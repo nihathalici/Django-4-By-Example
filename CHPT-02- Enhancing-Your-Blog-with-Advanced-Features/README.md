@@ -5,6 +5,7 @@
 * Adding pagination
 * Building class-based views
 * Recommending posts by email
+* Creating a comment system
 
 
 Links and Appendix
