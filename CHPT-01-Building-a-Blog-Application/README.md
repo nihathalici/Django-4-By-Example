@@ -1,5 +1,7 @@
 # Django 4 By Example | Building a Blog Application
 
+This chapter should serve as a guide to build a complete Django application and shall provide an insight into how the framework works.
+
 * Creating the blog data models
 * Creating an administration site for models
 * Working with QuerySets and managers
