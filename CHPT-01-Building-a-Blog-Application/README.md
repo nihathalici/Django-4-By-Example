@@ -9,6 +9,16 @@ This chapter should serve as a guide to build a complete Django application and 
 * Building list and detail views
 * Creating templates for your views
 
+Sample Output
+========================================================
+
+![Chapter-1 Sample Output-1](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-01-Building-a-Blog-Application/Screenshots/Django-4-By-Example-CHPT-1-sample-screenshots-1.png)
+
+![Chapter-1 Sample Output-2](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-01-Building-a-Blog-Application/Screenshots/Django-4-By-Example-CHPT-1-sample-screenshots-2.png)
+
+![Chapter-1 Sample Output-3](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-01-Building-a-Blog-Application/Screenshots/Django-4-By-Example-CHPT-1-sample-screenshots-3.png)
+
+
 Links and Appendix
 ========================================================
 
