@@ -2,7 +2,7 @@
 
 * Using canonical URLs for models
 * Creating SEO-friendly URLs for posts
-* Adding pagination
+* Adding pagination to the post list view
 * Building class-based views
 * Recommending posts by email
 * Creating a comment system
