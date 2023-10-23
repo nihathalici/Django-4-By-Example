@@ -1,6 +1,7 @@
 # Django 4 By Example | Building a Blog Application
 
 This chapter should serve as a guide to build a complete Django application and shall provide an insight into how the framework works.
+
 • Installing Python
 • Creating a Python virtual environment
 * Creating the blog data models
@@ -8,6 +9,7 @@ This chapter should serve as a guide to build a complete Django application and 
 * Working with QuerySets and managers
 * Building list and detail views
 * Creating templates for your views
+  
 
 Sample Output
 ========================================================
