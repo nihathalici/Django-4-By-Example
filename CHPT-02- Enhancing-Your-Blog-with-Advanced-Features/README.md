@@ -4,6 +4,7 @@
 * Creating SEO-friendly URLs for posts
 * Adding pagination to the post list view
 * Building class-based views
+* Sending emails with Django
 * Recommending posts by email
 * Creating a comment system
 
