@@ -14,6 +14,7 @@ Sample Output
 ![Chapter-2 Sample Output-1](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-02-%20Enhancing-Your-Blog-with-Advanced-Features/Screenshots/1.png)
 ![Chapter-2 Sample Output-2](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-02-%20Enhancing-Your-Blog-with-Advanced-Features/Screenshots/2.png)
 ![Chapter-2 Sample Output-3](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-02-%20Enhancing-Your-Blog-with-Advanced-Features/Screenshots/3.png)
+![Chapter-2 Sample Output-4](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-02-%20Enhancing-Your-Blog-with-Advanced-Features/Screenshots/4.png)
 
 
 Links and Appendix
