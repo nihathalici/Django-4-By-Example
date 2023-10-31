@@ -5,6 +5,7 @@
 * Adding pagination to the post list view
 * Building class-based views
 * Sending emails with Django
+* Using Django forms to share posts via email
 * Recommending posts by email
 * Creating a comment system
 
