@@ -6,6 +6,7 @@
 * Building class-based views
 * Sending emails with Django
 * Using Django forms to share posts via email
+* Adding comments to posts using forms from models
 * Recommending posts by email
 * Creating a comment system
 
