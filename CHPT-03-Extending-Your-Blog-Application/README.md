@@ -1,5 +1,6 @@
 # Django 4 By Example | Extending Your Blog Application
 
+* Integrating third-party applications
 
 Links and Appendix
 ========================================================
