@@ -1,6 +1,7 @@
 # Django 4 By Example | Extending Your Blog Application
 
 * Integrating third-party applications
+* Using django-taggit to implement a tagging system
 
 Links and Appendix
 ========================================================
