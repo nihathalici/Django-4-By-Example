@@ -2,6 +2,7 @@
 
 * Integrating third-party applications
 * Using django-taggit to implement a tagging system
+* Building complex QuerySets to recommend similar posts
 
 Links and Appendix
 ========================================================
