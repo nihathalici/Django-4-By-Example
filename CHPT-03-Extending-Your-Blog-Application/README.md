@@ -3,6 +3,8 @@
 * Integrating third-party applications
 * Using django-taggit to implement a tagging system
 * Building complex QuerySets to recommend similar posts
+* Creating custom template tags and filters to show a list of the latest posts and most commented
+posts in the sidebar
 
 Links and Appendix
 ========================================================
