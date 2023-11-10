@@ -6,6 +6,11 @@
 * Creating custom template tags and filters to show a list of the latest posts and most commented
 posts in the sidebar
 
+Sample Output
+========================================================
+
+![Chapter-3 Sample Output-1](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-03-Extending-Your-Blog-Application/Screenshots/1.png)
+
 Links and Appendix
 ========================================================
 
