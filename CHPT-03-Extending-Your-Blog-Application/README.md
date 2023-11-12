@@ -10,6 +10,7 @@ Sample Output
 ========================================================
 
 ![Chapter-3 Sample Output-1](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-03-Extending-Your-Blog-Application/Screenshots/1.png)
+![Chapter-3 Sample Output-2](https://github.com/nihathalici/Django-4-By-Example/blob/main/CHPT-03-Extending-Your-Blog-Application/Screenshots/2.png)
 
 Links and Appendix
 ========================================================
