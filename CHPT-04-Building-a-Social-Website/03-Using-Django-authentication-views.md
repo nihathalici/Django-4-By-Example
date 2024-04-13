@@ -1,6 +1,5 @@
-02 / Using the Django authentication framework
+03 / Using the Django authentication views
 ========================================================
-
 
 * Update the urls.py within the account folder
 ```python
