@@ -83,3 +83,77 @@ def register(request):  # new
                   {"user_form": user_form})
 
 ```
+
+* Update the urls.py file within the account folder
+
+```python
+
+# bookmarks/account/urls.py
+
+from django.urls import path, include
+from django.contrib.auth import views as auth_views
+from . import views
+
+urlpatterns = [    
+    ...
+
+    path("", include("django.contrib.auth.urls")),
+    path("", views.dashboard, name="dashboard"),
+    path("register/", views.register, name="register"), # new
+
+]
+
+```
+
+* Create the register.html file within the templates/account folder
+```html
+<!-- bookmarks/account/templates/account/register.html -->
+{% extends 'base.html' %}
+
+{% block title %}Create an account{% endblock title %}
+
+{% block content %}
+  <h1>Create an account</h1>
+  <p>Please, sign up using the following form:</p>
+  <form method="post" action="">
+    {{ user_form.as_p }}
+    {% csrf_token %}
+    <p> <input type="submit" value="Create my account"></p>
+  </form>    
+{% endblock content %}    
+```
+
+* Create the register_done.html file within the templates/account folder
+```html
+<!-- bookmarks/account/templates/account/register_done.html -->
+
+{% extends 'base.html' %}
+
+{% block title %}Welcome{% endblock title %}
+
+{% block content %}
+  <h1>Welcome {{ new_user.first_name }}!</h1>
+  <p>
+    Your account has been successfully created.
+    Now you can <a href="{% url 'login' %}">log in</a>.
+  </p>    
+{% endblock content %}
+
+```
+
+* Check http://127.0.0.1:8000/account/register/ 
+
+* Update the login.html within templates/registration folder
+```html
+<!-- bookmarks/account/templates/registration/login.html -->
+
+...
+
+  <p>Please, use the following form to log-in:
+<!-- New -->If you don't have an account <a href="{% url 'register' %}">register here</a>.<!-- New --> 
+  </p>
+
+...
+
+```
+
