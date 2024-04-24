@@ -73,7 +73,7 @@ sudo nano /etc/hosts
 ALLOWED_HOSTS = ["mysite.com", "localhost", "127.0.0.1"]
 ```
 
-* Run the local server again. Check http://mysite.com:8000/account/login/  again. The error should be gone.
+* Run the local server. Check http://mysite.com:8000/account/login/  again. The error should be gone.
 
 
 Running the development server through HTTPS
