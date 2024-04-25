@@ -59,7 +59,7 @@ if settings.DEBUG:
 sudo nano /etc/hosts
 ```
 
-* Add a new line. Save it with Ctrl+O, and exit Ctrl+X   
+* Add a new line. Save it with Ctrl+O, and exit with Ctrl+X   
 ```shell
 127.0.0.1 mysite.com
 ```
