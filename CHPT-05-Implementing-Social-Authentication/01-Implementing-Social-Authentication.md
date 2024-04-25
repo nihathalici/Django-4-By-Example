@@ -83,3 +83,46 @@ Running the development server through HTTPS
 ```shell
 pip install django-extensions
 ```
+
+* Install Werkzeug
+```shell
+pip install werkzeug==2.2.2
+```
+
+* Install pyOpenSSL
+```shell
+pip install pyOpenSSL==22.0.0
+```
+
+* Edit settings, and add the Social Auth to the Installed Apps
+```python
+
+# bookmarks/bookmarks/settings.py
+
+INSTALLED_APPS = [
+    "account.apps.AccountConfig",
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    "social_django",
+    "django_extensions", # new
+]
+
+```
+
+* Run local server with the runserver_plus command
+```shell
+python manage.py runserver_plus --cert-file cert.crt
+```
+
+* Update the settings
+```python
+AUTHENTICATION_BACKENDS = [
+    "django.contrib.auth.backends.ModelBackend",
+    "account.authentication.EmailAuthBackend",
+    "social_core.backends.facebook.FacebookOAuth2"  # new
+]
+```
