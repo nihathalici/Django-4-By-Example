@@ -59,7 +59,7 @@ if settings.DEBUG:
 sudo nano /etc/hosts
 ```
 
-* Add a new line. Save it with Ctrl+O, and exit with Ctrl+X   
+* Add a new line. Save it with Ctrl+O, and exit Ctrl+X   
 ```shell
 127.0.0.1 mysite.com
 ```
@@ -118,6 +118,10 @@ INSTALLED_APPS = [
 python manage.py runserver_plus --cert-file cert.crt
 ```
 
+
+Authentication using Facebook
+========================================================
+
 * Update the settings
 ```python
 AUTHENTICATION_BACKENDS = [
@@ -126,3 +130,5 @@ AUTHENTICATION_BACKENDS = [
     "social_core.backends.facebook.FacebookOAuth2"  # new
 ]
 ```
+
+* Go to https://developers.facebook.com/apps/ . Create a new Facebook app.
